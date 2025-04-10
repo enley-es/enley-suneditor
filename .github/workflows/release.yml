@@ -17,6 +17,8 @@ jobs:
           scope: "@enley-es"
       - name: Install dependencies
         run: npm ci
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
       - name: Build the package
         run: NODE_OPTIONS=--openssl-legacy-provider ng build
       - name: Publish
