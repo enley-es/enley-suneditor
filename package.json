@@ -46,11 +46,11 @@
   },
   "scripts": {
     "ng": "ng",
-    "start-app": "ng serve",
+    "start-app": "NODE_OPTIONS=--openssl-legacy-provider  ng serve",
     "test-app": "ng test",
-    "build-app": "ng build",
-    "build-lib": "ng build ngx-suneditor --prod",
-    "test-lib": "ng test ngx-suneditor --browsers=ChromeHeadless --watch=false",
+    "build-app": "NODE_OPTIONS=--openssl-legacy-provider ng build",
+    "build-lib": "NODE_OPTIONS=--openssl-legacy-provider ng build ngx-suneditor --prod",
+    "test-lib": "NODE_OPTIONS=--openssl-legacy-provider ng test ngx-suneditor --browsers=ChromeHeadless --watch=false",
     "test-lib:watch": "ng test ngx-suneditor"
   },
   "private": true,
