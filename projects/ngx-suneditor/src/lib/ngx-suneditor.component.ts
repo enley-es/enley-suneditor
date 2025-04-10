@@ -694,7 +694,7 @@ export class NgxSuneditorComponent implements AfterViewInit {
    */
   public disabled(): void {
     this._disabled = true;
-    this.editor.disabled();
+    this.editor.disable();
   }
 
   /**
@@ -710,7 +710,7 @@ export class NgxSuneditorComponent implements AfterViewInit {
    */
   public enabled(): void {
     this._disabled = false;
-    this.editor.enabled();
+    this.editor.enable();
   }
 
   /**
