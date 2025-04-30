@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "angular-suneditor"
+  "defaultProject": "angular-suneditor",
+  "cli": {
+    "analytics": false
+  }
 }
