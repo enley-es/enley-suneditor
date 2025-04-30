@@ -20,6 +20,7 @@ jobs:
       - name: Build the package
         run: npm run build-lib
       - name: Publish
+        working-directory: ./dist/ngx-suneditor
         run: npm publish --registry=https://npm.pkg.github.com
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
