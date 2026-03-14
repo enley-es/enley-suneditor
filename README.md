@@ -41,7 +41,7 @@
 
 ## About The Project
 
-**Supported Angular Versions:** 12+
+**Supported Angular Versions:** 19+
 
 ngx-suneditor is a angular module for [SunEditor](http://suneditor.com/sample/index.html) implementing all features *The Angular Way*.
 

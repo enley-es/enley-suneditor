@@ -5,6 +5,7 @@ import { NgxSuneditorComponent } from '../../projects/ngx-suneditor/src/public-a
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+  standalone: false,
 })
 export class AppComponent {
   @ViewChild(NgxSuneditorComponent) editor: NgxSuneditorComponent;

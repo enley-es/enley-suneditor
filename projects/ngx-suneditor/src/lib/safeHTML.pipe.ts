@@ -8,7 +8,7 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
  * https://github.com/angular/angular/issues/19645
  * https://github.com/angular/angular/issues/36650
  */
-@Pipe({ name: 'safeHtml' })
+@Pipe({ name: 'safeHtml', standalone: false })
 export class SafeHtmlPipe implements PipeTransform {
   constructor(private sanitized: DomSanitizer) {}
   transform(value: any): SafeHtml {

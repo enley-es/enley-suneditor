@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'ngx-sunview',
+  standalone: false,
   template: `
     <div
       *ngIf="bypassSantiziser"

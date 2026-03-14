@@ -25,6 +25,7 @@ import { SUNEDITOR_OPTIONS } from './suneditorOptions.token';
 @Component({
   selector: 'ngx-suneditor',
   template: ` <textarea id="{{ editorID }}"></textarea> `,
+  standalone: false,
 })
 export class NgxSuneditorComponent implements AfterViewInit {
   // The editor instance that is returned on create
