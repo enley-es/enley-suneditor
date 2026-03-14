@@ -1,7 +1,7 @@
 {
   "name": "@enley-es/ngx-suneditor",
   "description": "Angular component for Suneditor WYSIWYG richt text editor",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "license": "MIT",
   "author": {
     "name": "BauViso Software UG",
@@ -45,8 +45,8 @@
     "url": "https://github.com/enle-es/enley-suneditor.git"
   },
   "peerDependencies": {
-    "@angular/common": "^20.0.0",
-    "@angular/core": "^20.0.0",
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
     "suneditor": "^2.41.0"
   },
   "dependencies": {
